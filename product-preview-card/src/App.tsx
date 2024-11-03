@@ -1,8 +1,10 @@
+import ProductCard from "./components/ProductCard"
+
 function App() {
-
-
   return (
-      <h1 className="text-red-400"> Hello</h1>
+      <div className="flex justify-center items-center h-screen bg-primary-cream">
+        <ProductCard/>
+      </div>
   )
 }
 
