@@ -4,7 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06348490-f64c-4ac7-95f4-8ba03ae8249b" name="Changes" comment="update qr-code" />
+    <list default="true" id="06348490-f64c-4ac7-95f4-8ba03ae8249b" name="Changes" comment="update qr-code">
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/bg-intro-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/bg-intro-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-api.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-budgeting.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-hamburger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-onboarding.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-online.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-confetti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-currency.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-mockups-desktop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-mockups.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-plane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-restaurant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/articles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/features.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/gradient-button.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/hero-mobile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/hero.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-preview-card/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-preview-card/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-links/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/social-links/src/App.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +79,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/prase/OneDrive/Dokumen/GitHub/frontendmentor",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +89,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\prase\OneDrive\Dokumen\GitHub\frontendmentor" />
@@ -79,8 +120,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -97,6 +137,7 @@
       <workItem from="1729221192497" duration="24000" />
       <workItem from="1729221266590" duration="107000" />
       <workItem from="1729221407334" duration="301000" />
+      <workItem from="1731812688120" duration="485000" />
     </task>
     <task id="LOCAL-00001" summary="update qr-code">
       <option name="closed" value="true" />

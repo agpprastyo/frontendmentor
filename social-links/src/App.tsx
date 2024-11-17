@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <div className="bg-gray-900 h-screen m-auto text-white flex flex-col items-center justify-center">
+    <div className=" bg-gray-600 h-screen m-auto text-white flex flex-col items-center justify-center ite">
       <section className="max-w-sm bg-gray-800 p-6 items-center text-center rounded-md">
 
           <img src="/avatar-jessica.jpeg" alt="Jessica Randall" className="rounded-full w-24 h-24 m-auto" />

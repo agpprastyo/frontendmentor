@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS for gradient underline */
+.gradient-underline {
+    position: relative;
+    display: inline-block; /* Ensure it only wraps the text */
+}
+
+.gradient-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -12px; /* Adjust this value to create a gap */
+    height: 4px; /* Height of the underline */
+    width: 100%;
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%)); /* Your gradient colors */
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.gradient-underline:hover::after,
+.gradient-underline.active::after {
+    transform: scaleX(1);
+}
+
+
