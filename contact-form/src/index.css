@@ -1,0 +1,17 @@
+/* src/index.css */
+@font-face {
+    font-family: 'Karla';
+    src: url('public/fonts/Karla-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400; /* Adjust as necessary */
+    font-style: normal; /* Adjust as necessary */
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('public/fonts/Karla-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400; /* Adjust as necessary */
+    font-style: italic; /* Adjust as necessary */
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
