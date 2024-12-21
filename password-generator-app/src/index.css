@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --color-1-red: rgba(246, 74, 74, 1);
+    --color-2-orange: rgba(251, 124, 88, 1);
+    --color-3-yellow: rgba(248, 205, 101, 1);
+    --color-neon-green: rgba(164, 255, 175, 1);
+    --color-almost-white: rgba(230, 229, 234, 1);
+    --color-grey: rgba(129, 125, 146, 1);
+    --color-dark-grey: rgba(36, 35, 44, 1);
+    --color-very-dark-grey: rgba(24, 23, 31, 1);
+}
+
+.text-style-heading-l {
+    font-size: 32px;
+    font-family: "JetBrains Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-heading-m {
+    font-size: 24px;
+    font-family: "JetBrains Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.text-style-body-m {
+    font-size: 18px;
+    font-family: "JetBrains Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.slider {
+    -webkit-appearance: none; /* Remove default WebKit styling */
+    width: 100%; /* Full width */
+    height: 8px; /* Height of the track */
+    /*border-radius: 5px; !* Rounded corners for track *!*/
+    outline: none; /* Remove outline */
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default thumb styling */
+    appearance: none; /* Remove default thumb styling */
+    width: 32px; /* Width of the thumb */
+    height: 32px; /* Height of the thumb */
+    background: white; /* Color of the thumb */
+    border-radius: 50%; /* Make thumb circular */
+    cursor: pointer; /* Cursor when hovering over thumb */
+    /*border: 2px solid #39FF14; !* Add border for better visibility *!*/
+}
+
+.slider::-moz-range-thumb {
+    width: 32px; /* Width of the thumb */
+    height: 32px; /* Height of the thumb */
+    background: white; /* Color of the thumb */
+    border-radius: 50%; /* Make thumb circular */
+    cursor: pointer; /* Cursor when hovering over thumb */
+    /*border: 2px solid #39FF14; !* Add border for better visibility *!*/
+}
+
+.slider:focus {
+    outline: none; /* Remove outline when focused */
+}
