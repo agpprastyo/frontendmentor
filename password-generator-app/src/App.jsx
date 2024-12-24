@@ -119,7 +119,7 @@ function App() {
         <div className='bg-color-very-dark-grey h-screen w-screen overflow-hidden text-color-almost-white'>
             <div className='flex flex-col items-center justify-center w-full h-full'>
                 <h1 className='text-style-heading-m'>Password Generator</h1>
-                <div className='w-[540px] mt-8'>
+                <div className='lg:w-[540px] w-full lg:px-0 md:px-28 px-4 mt-8'>
                     <div className='w-full flex flex-row justify-between content-between px-8 py-6 bg-color-dark-grey'>
                         <p className='text-style-heading-l'>{generatedPassword || 'PTx1f5DaFX'}</p>
                         <img
