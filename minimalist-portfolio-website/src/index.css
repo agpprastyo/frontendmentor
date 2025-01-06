@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Assuming this is in your styles.css */
+html, body {
+    height: 100%;  /* Ensure the body takes full height */
+    margin: 0;     /* Reset margin */
+    padding: 0;    /* Reset padding */
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the root container takes at least the full viewport height */
+}
+
+.main {
+    flex: 1;  /* Take up remaining space */
+}
+
+
+/*font styles */
+
+.heading-1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.heading-2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.heading-3 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+.body-1 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.body-2 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.6;
+}
