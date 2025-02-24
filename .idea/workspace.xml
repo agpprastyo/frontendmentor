@@ -4,38 +4,355 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06348490-f64c-4ac7-95f4-8ba03ae8249b" name="Changes" comment="update qr-code">
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/bg-intro-desktop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/bg-intro-mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-api.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-budgeting.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-hamburger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-onboarding.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-online.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-pinterest.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/icon-youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-confetti.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-currency.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-mockups-desktop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-mockups.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-plane.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/image-restaurant.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/logo-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/public/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/articles.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/features.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/gradient-button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/hero-mobile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/hero.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easybank-landing-page/src/components/navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-preview-card/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-preview-card/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-links/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/social-links/src/App.tsx" afterDir="false" />
+    <list default="true" id="06348490-f64c-4ac7-95f4-8ba03ae8249b" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/faq-accordion/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq-accordion/.idea/faq-accordion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq-accordion/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq-accordion/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq-accordion/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/faq-accordion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/README-template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/icon-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/icon-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/icon-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/icon-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/icon-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/icon-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/icon-sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/illustration-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/image-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/starter-code/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/Starter/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/icon-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/icon-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/icon-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/icon-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/icon-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/icon-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/icon-sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/illustration-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/image-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/public/vite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/assets/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/app-sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/mode-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/theme-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/ui/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/ui/separator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/ui/sheet.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/ui/sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/ui/skeleton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/components/ui/tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/data/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/hooks/use-mobile.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice-app/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/kotlin/com/example/invoice_app/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/res/values-night/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/data-1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/icon-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/icon-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/icon-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/icon-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/icon-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/icon-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/icon-sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/illustration-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/image-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/devtools_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/ios/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/bloc/invoice/invoice_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/bloc/invoice/invoice_bloc.freezed.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/bloc/invoice/invoice_event.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/bloc/invoice/invoice_state.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/bloc/theme_cubit.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/core/extensions/color_schema.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/core/extensions/responsive_utils.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/core/extensions/string.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/core/styles/color.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/core/styles/text_styles.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/core/styles/theme.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/core/styles/util.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/data/models/invoice.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/data/models/invoice.freezed.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/data/models/invoice.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/data/repository/invoice_repo.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/providers/theme_provider.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/screen/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/widgets/filter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/widgets/form_drawer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/widgets/invoice_header.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/widgets/invoice_items.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/widgets/logo_brand.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/widgets/profile_section.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/lib/widgets/sidebar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/runner/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/runner/main.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/runner/my_application.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/linux/runner/my_application.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Base.lproj/MainMenu.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Configs/AppInfo.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Configs/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Configs/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Configs/Warnings.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/DebugProfile.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/MainFlutterWindow.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/Runner/Release.entitlements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/macos/RunnerTests/RunnerTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/README-template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/icon-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/icon-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/icon-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/icon-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/icon-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/icon-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/icon-sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/illustration-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/image-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/starter/starter-code/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/test/widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/web/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/web/icons/Icon-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/web/icons/Icon-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/web/icons/Icon-maskable-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/web/icons/Icon-maskable-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/web/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/flutter/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/flutter/generated_plugin_registrant.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/Runner.rc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/flutter_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/flutter_window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/resource.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/resources/app_icon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/runner.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/utils.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/win32_window.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/invoice_app/windows/runner/win32_window.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/fonts/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/fonts/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/fonts/RedHatText-Italic-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/fonts/RedHatText-VariableFont_wght.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/fonts/static/RedHatText-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/fonts/static/RedHatText-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/fonts/static/RedHatText-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/icon-add-to-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/icon-carbon-neutral.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/icon-decrement-quantity.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/icon-increment-quantity.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/icon-order-confirmed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/icon-remove-item.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/illustration-empty-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-baklava-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-baklava-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-baklava-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-baklava-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-brownie-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-brownie-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-brownie-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-brownie-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-cake-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-cake-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-cake-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-cake-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-creme-brulee-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-creme-brulee-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-creme-brulee-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-creme-brulee-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-macaron-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-macaron-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-macaron-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-macaron-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-meringue-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-meringue-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-meringue-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-meringue-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-panna-cotta-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-panna-cotta-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-panna-cotta-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-panna-cotta-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-tiramisu-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-tiramisu-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-tiramisu-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-tiramisu-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-waffle-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-waffle-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-waffle-tablet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/public/images/image-waffle-thumbnail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/components/AddToCartButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/components/ConfirmModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/context/CartContext.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/data/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/hooks/useDesserts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/types/cartTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/types/dessertTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-list-with-cart/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq-accordion/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/faq-accordion/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq-accordion/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq-accordion/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +391,13 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/prase/OneDrive/Dokumen/GitHub/frontendmentor",
+    "last_opened_file_path": "C:/Development/frontendmentor/faq-accordion",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,6 +412,7 @@
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
@@ -120,7 +439,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-WS-243.24978.60" />
       </set>
     </attachedChunks>
   </component>
@@ -138,6 +457,7 @@
       <workItem from="1729221266590" duration="107000" />
       <workItem from="1729221407334" duration="301000" />
       <workItem from="1731812688120" duration="485000" />
+      <workItem from="1740400139042" duration="2832000" />
     </task>
     <task id="LOCAL-00001" summary="update qr-code">
       <option name="closed" value="true" />
