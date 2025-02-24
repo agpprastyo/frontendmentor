@@ -120,7 +120,7 @@ function App() {
                                     </p>
                                 </div>
                               <div className='flex flex-row items-center justify-center py-4 gap-4 mt-4 bg-color-rose-50 rounded-lg '>
-                                  <img src='public/images/icon-carbon-neutral.svg' alt='null'/>
+                                  <img src='/images/icon-carbon-neutral.svg' alt='null'/>
                                   <p className='text-preset-4 text-color-rose-900'>
                                       This is a <span className="text-preset-4-bold">carbon-neutral</span> delivery.
                                   </p>
