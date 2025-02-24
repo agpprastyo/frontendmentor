@@ -38,14 +38,14 @@ const AddToCartButton = ({ addToCart, removeFromCart, cart, dessert }: AddToCart
             ) : (
                 <button className="flex flex-row justify-between gap-8 group bg-color-red text-white py-2 px-2 rounded-full">
                     <img
-                        src="/public/images/icon-decrement-quantity.svg"
+                        src="/images/icon-decrement-quantity.svg"
                         alt="Decrement cart"
                         onClick={decrementQuantity}
                         className="cursor-pointer"
                     />
                     <p className='text-preset-4-bold'>{quantity}</p>
                     <img
-                        src="/public/images/icon-increment-quantity.svg"
+                        src="/images/icon-increment-quantity.svg"
                         alt="Increment cart"
                         onClick={incrementQuantity}
                         className="cursor-pointer"
