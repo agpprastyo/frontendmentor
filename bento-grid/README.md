@@ -1,43 +1,39 @@
-## React + Vite + TailwindCSS template
+# bento-grid
 
-Create your own project based on this template by running:
+This template should help get you started developing with Vue 3 in Vite.
 
-```bash
-npx degit quavedev/react-vite-tailwindcss-template your-project
-```
+## Recommended IDE Setup
 
-## Install
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-```bash
+## Type Support for `.vue` Imports in TS
+
+TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
+
+## Project Setup
+
+```sh
 npm install
 ```
 
-> You can make sure you are running Node.js 18 with `nvm`. Run `nvm use` to set the Node.js 18 in this project.
+### Compile and Hot-Reload for Development
 
-## Develop
-
-```bash
+```sh
 npm run dev
 ```
 
-## Build
+### Type-Check, Compile and Minify for Production
 
-```bash
-npm build
+```sh
+npm run build
 ```
 
-Preview:
+### Lint with [ESLint](https://eslint.org/)
 
-```bash
-npm run preview
+```sh
+npm run lint
 ```
-
-## Deploy on zCloud
-
-Create your account at [zcloud.ws](https://zcloud.ws).
-
-Connect to your GitHub, create your app and done!
-
-Push to Deploy.
-
-Or use the preconfigured [action](./.github/workflows/deploy.yaml) to deploy your app. Uncomment all the lines and add your zCloud User Token (ZCLOUD_USER_TOKEN) to your secrets on GitHub and replace `env` placeholder value with your app env name (check it on app.zcloud.ws > Your app env > Settings).
